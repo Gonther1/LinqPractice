@@ -1,0 +1,17 @@
+/workspaces/LinqPractice/exercise/bin/Debug/net7.0/exercise
+/workspaces/LinqPractice/exercise/bin/Debug/net7.0/exercise.deps.json
+/workspaces/LinqPractice/exercise/bin/Debug/net7.0/exercise.runtimeconfig.json
+/workspaces/LinqPractice/exercise/bin/Debug/net7.0/exercise.dll
+/workspaces/LinqPractice/exercise/bin/Debug/net7.0/exercise.pdb
+/workspaces/LinqPractice/exercise/obj/Debug/net7.0/exercise.csproj.AssemblyReference.cache
+/workspaces/LinqPractice/exercise/obj/Debug/net7.0/exercise.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/LinqPractice/exercise/obj/Debug/net7.0/exercise.AssemblyInfoInputs.cache
+/workspaces/LinqPractice/exercise/obj/Debug/net7.0/exercise.AssemblyInfo.cs
+/workspaces/LinqPractice/exercise/obj/Debug/net7.0/exercise.csproj.CoreCompileInputs.cache
+/workspaces/LinqPractice/exercise/obj/Debug/net7.0/exercise.dll
+/workspaces/LinqPractice/exercise/obj/Debug/net7.0/refint/exercise.dll
+/workspaces/LinqPractice/exercise/obj/Debug/net7.0/exercise.pdb
+/workspaces/LinqPractice/exercise/obj/Debug/net7.0/exercise.genruntimeconfig.cache
+/workspaces/LinqPractice/exercise/obj/Debug/net7.0/ref/exercise.dll
+/workspaces/LinqPractice/exercise/bin/Debug/net7.0/Newtonsoft.Json.dll
+/workspaces/LinqPractice/exercise/obj/Debug/net7.0/exercise.csproj.CopyComplete
