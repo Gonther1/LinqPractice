@@ -2,10 +2,10 @@
 {
     private static void Main(string[] args)
     {
-        bool bolean;
+        // bool bolean;
         LinqQueries queries = new LinqQueries();
-        // ImprimirValores(queries.AllCollection());
-        // ImprimirValores(queries.Libros200Pages());
+        // ImprimirValores(queries.AllCollection()); Toda la libreria
+        // ImprimirValores(queries.Libros200Pages()); Libros con más de 200 páginas
         // bolean=queries.CampoStatus();
         // if (bolean==true)
         // {
@@ -16,7 +16,9 @@
         //     Console.WriteLine("Al menos algun libro no tiene status");
         // }
 
-        ImprimirValores(queries.Publish2005());
+        // ImprimirValores(queries.Publish2005()); Imprimir Libros publicados en 2005
+        // ImprimirValores(queries.CategoriePython()); Imprimir Libros con la categoria Python
+        ImprimirValores(queries.CategorieJavaOrdened());
     }
     private static void ImprimirValores(IEnumerable<Book> books)
     {

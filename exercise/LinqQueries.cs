@@ -36,13 +36,25 @@ public class LinqQueries
     }
     public IEnumerable<Book> Publish2005()
     {
-        if (lstBook.Any(book => book.PublishedDate.Year == 2007))
+        if (lstBook.Any(book => book.PublishedDate.Year == 2005))
         {
-            return from book in lstBook where book.PublishedDate.Year == 2007 select book;
+            return from book in lstBook where book.PublishedDate.Year == 2005 select book;
         }
         else 
         {
             return default;
         }
+    }
+    public IEnumerable<Book> CategoriePython()
+    {
+        return from book in lstBook where book.Categories.Contains("Python") select book;
+    }
+    public IEnumerable<Book> CategorieJavaOrdened()
+    {
+        return from book in lstBook where book.Categories.Contains("Java") orderby book.Title select book;
+    }
+    public IEnumerable<Book> More450Pages()
+    {
+        return from book in lstBook where book.PageCount > 450  select book;
     }
 }
